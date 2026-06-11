@@ -1,62 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevPickles – Drive Growth</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@700&family=Montserrat:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" href="assets/images/smallfan.png">
-</head>
-
-<body>
-
-  <!-- LOADER -->
-  <div class="page-loader" id="pageLoader">
-    <div class="loader-body">
-      <span class="loader-brand">DEVPICKLES</span>
-      <div class="loader-bar">
-        <div class="loader-fill"></div>
-      </div>
-    </div>
-  </div>
-  <div id="scrollProg"></div>
-
-  <!-- ========================================================
-     S1 — HERO
-======================================================== -->
-  <section class="hero" id="home">
-    <nav class="hero-nav" id="mainNav">
-      <div class="nav-wrap">
-        <a class="nav-brand" href="#home">
-          <img src="assets/images/logo2.gif" alt="" class="nav-brand-icon" onerror="this.style.display='none'">
-          <span class="nav-brand-name">DevPickles</span>
-        </a>
-        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
-        <div class="nav-center" id="navCenter">
-          <ul class="nav-items">
-            <li><a href="#home" class="ni active">Home</a></li>
-            <li><a href="#work" class="ni">Work</a></li>
-            <li><a href="#about" class="ni">About us</a></li>
-            <li><a href="#contact" class="ni">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="nav-actions" id="navActions">
-          <a href="tel:+9493233170" class="btn-nav-call"><i class="fa-solid fa-phone"></i> Call Us</a>
-          <a href="#contact" class="btn-nav-inquire">Inquire Now</a>
-        </div>
-      </div>
-    </nav>
+ <?php include('partials/header.php'); ?>
 
     <div class="hero-canvas">
-      <div class="hd hd1"><img src="https://www.figma.com/api/mcp/asset/ef1c0e99-463e-40ee-879b-c0df188b95fc" alt="">
+      <div class="hd hd1"><img src="assets/images/logo-sm1.png" alt="">
       </div>
-      <div class="hd hd2"><img src="https://www.figma.com/api/mcp/asset/83eaede6-21d4-4cb2-886a-880e0122af18" alt="">
+      <div class="hd hd2"><img src="assets/images/logo-sm2.png" alt="">
       </div>
       <div class="hw drive-pos">
         <h1 class="hw-text drive-txt rv-up">DRIVE</h1>
@@ -449,15 +396,15 @@
               </div>
               <div class="pc-line"></div>
               <ul class="pc-list">
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Custom 5-page website</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Mobile responsive design</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Basic SEO setup</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Contact form integration</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> 1-month free support</li>
               </ul>
             </div>
@@ -474,15 +421,15 @@
               </div>
               <div class="pc-line pc-line-lt"></div>
               <ul class="pc-list pc-list-lt">
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> Custom 10-page website</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> Advanced SEO optimization</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> E-commerce setup</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> Blog integration</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> 3-month priority support</li>
               </ul>
             </div>
@@ -564,7 +511,7 @@
         <div class="col-lg-3 col-md-6 rv-up" data-delay="0">
           <div class="feat-col">
             <div class="feat-icon-wrap">
-              <img src="https://www.figma.com/api/mcp/asset/5908801d-bf6d-4305-968f-1843eb3df725" alt="Unique Designs"
+              <img src="assets/images/1f.svg" alt="Unique Designs"
                 class="feat-icon">
             </div>
             <h4 class="feat-title">Unique Designs</h4>
@@ -575,8 +522,7 @@
         <div class="col-lg-3 col-md-6 rv-up" data-delay="100">
           <div class="feat-col">
             <div class="feat-icon-wrap">
-              <img src="https://www.figma.com/api/mcp/asset/337112b3-2922-4a44-af63-b3e270f5b299"
-                alt="Money Back Guarantee" class="feat-icon">
+              <img src="assets/images/2f.svg" alt="Money Back Guarantee" class="feat-icon">
             </div>
             <h4 class="feat-title">Money Back Guarantee</h4>
             <p class="feat-desc">If you're unhappy with what you've received or we've failed to meet your deadline, you
@@ -586,7 +532,7 @@
         <div class="col-lg-3 col-md-6 rv-up" data-delay="200">
           <div class="feat-col">
             <div class="feat-icon-wrap">
-              <img src="https://www.figma.com/api/mcp/asset/730e5b39-c013-422b-ab06-0811172d1d65"
+              <img src="assets/images/3f.svg"
                 alt="Customer Satisfaction" class="feat-icon">
             </div>
             <h4 class="feat-title">Customer Satisfaction</h4>
@@ -597,7 +543,7 @@
         <div class="col-lg-3 col-md-6 rv-up" data-delay="300">
           <div class="feat-col feat-col-last">
             <div class="feat-icon-wrap">
-              <img src="https://www.figma.com/api/mcp/asset/ab03ac22-4fe7-4454-91d5-ae9e541c2708" alt="24/7 Support"
+              <img src="assets/images/4f.svg" alt="24/7 Support"
                 class="feat-icon">
             </div>
             <h4 class="feat-title">24/7 Support</h4>
@@ -655,105 +601,4 @@
   <!-- ========================================================
      FOOTER — CTA top (Eden #166855) + Links (Zuccini #043c2f)
 ======================================================== -->
-  <footer class="site-footer" id="contact">
-
-    <!-- CTA strip -->
-    <div class="footer-cta">
-      <div class="container">
-        <div class="row align-items-center g-4">
-          <div class="col-lg-7 rv-left">
-            <h2 class="footer-cta-h">Discover the full scale of<br>Devpickles capabilities</h2>
-            <svg xmlns="http://www.w3.org/2000/svg" width="189" height="4" viewBox="0 0 189 4" fill="none">
-              <path d="M0 2H188.341" stroke="#81F774" stroke-width="4" />
-            </svg>
-          </div>
-          <div class="col-lg-5 text-lg-end rv-right">
-            <a href="tel:+9493233170" class="btn-fc-call">Call Us</a>
-            <a href="mailto:hello@devpickles.com" class="btn-fc-inq">Inquire Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Links area -->
-    <div class="footer-links-area">
-      <div class="container">
-        <div class="row g-5 pt-5 pb-4">
-          <div class="col-md-4  rv-up">
-            <div class="fb-wrap"><span class="fb-name">DevPickles</span></div>
-            <!-- <p class="fb-desc">Empowering businesses with cutting-edge digital solutions that drive real, measurable
-              growth.</p> -->
-            <ul class="fc-list">
-              <li><a href="#">hello@devpickles.com</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i> +949 323 3170</a></li>
-
-            </ul>
-
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 rv-up" data-delay="100">
-            <h6 class="fc-h">Solution</h6>
-            <ul class="fc-list">
-              <li><a href="#">Why DevPickles</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Open AI</a></li>
-              <li><a href="#">Technology</a></li>
-              <li><a href="#">About Us</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 rv-up" data-delay="200">
-            <h6 class="fc-h">Services</h6>
-            <ul class="fc-list">
-              <li><a href="#">Customer App Development</a></li>
-              <li><a href="#">Custom Website Development</a></li>
-              <li><a href="#">AI Supported Platform</a></li>
-              <li><a href="#">Marketing Services</a></li>
-              <li><a href="#">SEO Service</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-4 col-6 rv-up" data-delay="300">
-            <h6 class="fc-h">About Us</h6>
-            <ul class="fc-list">
-              <li><a href="#">LinkedIn</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Trust Pilot</a></li>
-              <li><a href="#">Google</a></li>
-            </ul>
-          </div>
-          <!-- <div class="col-lg-2 col-md-3 col-6 rv-up" data-delay="300">
-            <h6 class="fc-h">Contact</h6>
-            <ul class="fc-list">
-              <li><a href="mailto:hello@devpickles.com">hello@devpickles.com</a></li>
-              <li><a href="tel:+9493233170">+949 323 3170</a></li>
-            </ul>
-          </div> -->
-        </div>
-        <div class="footer-cr">
-          <p>Copyright 2026 Devpickles. All rights reserved.</p>
-
-          <DIv>
-            <div class="fb-socials">
-              <a href="#" class="fsoc"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" class="fsoc"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="#" class="fsoc"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#" class="fsoc"><i class="fa-brands fa-behance"></i></a>
-            </div>
-          </DIv>
-        </div>
-      </div>
-    </div>
-    <div class="footer-legal">
-      <div class="container-fluid">
-        <a href="#" class="legal-link">Privacy Policy</a>
-        <span class="legal-divider">|</span>
-        <a href="#" class="legal-link">Terms and Conditions</a>
-      </div>
-
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="assets/js/script.js"></script>
-</body>
-
-</html>
+   <?php include('partials/footer.php'); ?>
