@@ -458,15 +458,15 @@
               </div>
               <div class="pc-line"></div>
               <ul class="pc-list">
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Full brand identity system</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Custom app development</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Dedicated account manager</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> Enterprise SEO strategy</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/d0b66663-139f-4f75-94ee-3d6add4ac99a" class="pc-chk"
+                <li><img src="assets/images/tick1.svg" class="pc-chk"
                     alt="✓"> 24/7 priority support</li>
               </ul>
             </div>
@@ -483,15 +483,15 @@
               </div>
               <div class="pc-line pc-line-lt"></div>
               <ul class="pc-list pc-list-lt">
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> Multi-platform applications</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> AI-powered integration</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> Custom analytics dashboard</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> Dedicated support team</li>
-                <li><img src="https://www.figma.com/api/mcp/asset/210483d4-6cc1-4e6f-8c90-4b0a31c90f80" class="pc-chk"
+                <li><img src="assets/images/tick2.svg" class="pc-chk"
                     alt="✓"> 6-month priority support</li>
               </ul>
             </div>
