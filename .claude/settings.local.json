@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\Waleed Aamir\\\\.claude\\\\projects\\\\c--xampp-htdocs-company-projects-pickles\\\\c9350a75-41d3-4fae-9c8f-3699094acb0d\\\\tool-results\\\\mcp-claude_ai_Figma-get_metadata-1780683617891.txt\" -Raw; \\($content | Select-String -Pattern 'height=\"967\"' -AllMatches\\).Matches | ForEach-Object { $start = [Math]::Max\\(0, $_.Index-80\\); $content.Substring\\($start, 200\\) } | Select-Object -First 10)"
+    ]
+  }
+}
