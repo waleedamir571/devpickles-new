@@ -46,8 +46,8 @@
           <div class="col-lg-3 col-md-4 col-6 rv-up" data-delay="200">
             <h6 class="fc-h">Services</h6>
             <ul class="fc-list">
-              <li><a href="#">Customer App Development</a></li>
-              <li><a href="#">Custom Website Development</a></li>
+              <li><a href="mobile-app-development">Customer App Development</a></li>
+              <li><a href="web-development">Custom Website Development</a></li>
               <li><a href="#">AI Supported Platform</a></li>
               <li><a href="#">Marketing Services</a></li>
               <li><a href="#">SEO Service</a></li>
@@ -96,6 +96,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 

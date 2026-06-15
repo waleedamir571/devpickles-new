@@ -11,6 +11,41 @@ $(document).ready(function () {
     initReveal();
   }, 1400);
 
+  /* ===== PHONE SLIDER ===== */
+  $('.phone-slider').slick({
+    centerMode: true,
+    centerPadding: '0px',
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 500,
+    initialSlide: 2,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+
   /* ===== HERO ENTRANCE ===== */
   function initHeroAnims() {
     var seq = [

@@ -131,6 +131,22 @@
     </div>
 
     <div class="container sap-content">
+      <!-- Partner Logos -->
+      <div class="partner-logos-row rv-up mb-5">
+        <div class="partner-logo">
+          <img src="assets/images/google.svg" alt="Google" class="logo-img">
+        </div>
+        <div class="partner-logo">
+          <img src="assets/images/pilot.svg" alt="Trustpilot" class="logo-img">
+        </div>
+        <div class="partner-logo">
+          <img src="assets/images/bbb.svg" alt="Accredited Business" class="logo-img">
+        </div>
+        <div class="partner-logo">
+          <img src="assets/images/clutch.svg" alt="Clutch" class="logo-img">
+        </div>
+      </div>
+
       <!-- Heading (centered, above media) -->
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center rv-up">
@@ -272,7 +288,7 @@
 
     <!-- Full-section green gradient background -->
     <div class="grow-bg"
-      style="background-image:url('https://www.figma.com/api/mcp/asset/7b169929-e13c-48f9-b3d7-69d73be82937')"></div>
+      style="background-image:url('assets/images/greenbgg.svg')"></div>
 
     <!-- LEFT side: team photo (top) + decorative green hollow frame (behind, extends below) -->
     <div class="grow-side-photo grow-photo-l">
