@@ -4,24 +4,21 @@
 <section class="s-mobile1" id="work">
     <!-- Our Published applications pill — absolute within section, Figma: x=43.6% y=76% -->
     <!-- <div class="s2-pub-pill"><img src="assets/images/btnbg.png" alt=""></div> -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row align-items-center g-0 g-lg-5">
 
             <!-- LEFT: text content -->
-            <div class="col-lg-4 offset-lg-2 ">
-                <h2 class="s2-heading">High Impact Websites</h2>
-                <p class="s2-body mt-4">We build high-performance digital engines engineered for
-                    growth. From headless commerce to bespoke enterprise
-                    platforms.</p>
+            <div class="col-lg-6  ">
+                <h2 class="s2-heading">Get in Touch</h2>
+                <p class="s2-body mt-4">Ready to scale your vision? Whether you're looking for world-class
+                    mobile experiences or robust web infrastructure, let's start a
+                    collaboration that matters.</p>
                 <div class="nav-actions pb-20" id="navActions">
                     <a href="tel:+9493233170" class="btn-nav-call1"> Call Us</a>
                     <a href="#contact" class="btn-nav-inquire1">Inquire Now</a>
                 </div>
 
-                <div class="nav-actions " id="navActions">
-                    <img src="assets/images/clients.svg" alt="Phone Icon" class="">
-                    <p class="clients">150+ Satisfied Clients</p>
-                </div>
+               
 
                 <!-- Actual Figma badge images -->
 
@@ -30,23 +27,7 @@
 
             <!-- RIGHT: two phones + shield logo -->
             <div class="col-lg-6 ">
-                <div class="sap-media-row">
-                    <div class="sap-dev-left ">
-                        <img src="assets/images/s1.svg" alt="Left device" class="sap-dev-img">
-                    </div>
-                    <div class="sap-laptop-col rv-up" data-delay="100">
-                        <div class="sap-laptop-frame">
-                            <img src="assets/images/computer.png" alt="SAPFORCE laptop" class="sap-laptop-img">
-                            <div class="sap-laptop-screen">
-                                <video src="assets/images/sapforce.mp4" class="sap-screen-vid" autoplay loop muted
-                                    playsinline></video>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sap-dev-right ">
-                        <img src="assets/images/s2.svg" alt="Right device" class="sap-dev-img">
-                    </div>
-                </div>
+                <img src="assets/images/contact.svg" alt="">
             </div>
 
         </div>
@@ -187,27 +168,30 @@
                         </div>
                         <div class="tf-text">
                             <p class="tf-title">Strategic UX Flow</p>
-                            <p class="tf-desc">We map the user journey from landing to checkout, removing friction at every single touchpoint.</p>
+                            <p class="tf-desc">We map the user journey from landing to checkout, removing friction at
+                                every single touchpoint.</p>
                         </div>
                     </div>
 
                     <div class="tf-item rv-up" data-delay="150">
                         <div class="tf-icon">
-                           <img src="assets/images/anchoring.svg" alt="">
+                            <img src="assets/images/anchoring.svg" alt="">
                         </div>
                         <div class="tf-text">
                             <p class="tf-title">Psychological Anchoring</p>
-                            <p class="tf-desc">Leveraging visual hierarchy and trust signals to guide visitor behavior naturally.</p>
+                            <p class="tf-desc">Leveraging visual hierarchy and trust signals to guide visitor behavior
+                                naturally.</p>
                         </div>
                     </div>
 
                     <div class="tf-item rv-up" data-delay="200">
                         <div class="tf-icon">
-                           <img src="assets/images/Design3.svg" alt="">
+                            <img src="assets/images/Design3.svg" alt="">
                         </div>
                         <div class="tf-text">
                             <p class="tf-title">Data-Backed Design</p>
-                            <p class="tf-desc">Every design choice is validated by behavioral data and industry-standard best practices.</p>
+                            <p class="tf-desc">Every design choice is validated by behavioral data and industry-standard
+                                best practices.</p>
                         </div>
                     </div>
 
@@ -323,54 +307,53 @@
 
     </div>
 </section>
- <section class="s-sapforce" id="about">
+<section class="s-sapforce" id="about">
 
     <!-- Fan: left-extended bg (Figma: fan at x=491, laptop at x=603 → fan pokes 112px to the left of laptop) -->
     <div class="sap-fan-bg" aria-hidden="true">
-      <div class="sap-fan-spin">
-        <img src="assets/images/fan.png" alt="" class="sap-fan-img">
-      </div>
+        <div class="sap-fan-spin">
+            <img src="assets/images/fan.png" alt="" class="sap-fan-img">
+        </div>
     </div>
 
     <div class="container sap-content">
-      <!-- Partner Logos -->
-      
+        <!-- Partner Logos -->
 
-      <!-- Heading (centered, above media) -->
-      <div class="row justify-content-center">
-        <div class="col-xl-7 col-lg-9 text-center rv-up">
-          <h2 class="sap-heading">Built For Impact<span class="dot-g">.</span></h2>
-          <h3 class="sap-sub">Engineered For Growth<span class="dot-g">.</span></h3>
-          <p class="sap-desc mt-3">Keep your audience hooked with lightning-fast, high-performance websites designed to
-            turn casual clicks into loyal fans and steady conversions.</p>
-        </div>
-      </div>
 
-      <!-- 3-column media: device | laptop | device -->
-      <div class="sap-media-row">
-        <div class="sap-dev-left ">
-          <img src="assets/images/s1.svg" alt="Left device"
-            class="sap-dev-img">
-        </div>
-        <div class="sap-laptop-col rv-up" data-delay="100">
-          <div class="sap-laptop-frame">
-            <img src="assets/images/computer.png" alt="SAPFORCE laptop"
-              class="sap-laptop-img">
-            <div class="sap-laptop-screen">
-              <video src="assets/images/sapforce.mp4" class="sap-screen-vid" autoplay loop muted playsinline></video>
+        <!-- Heading (centered, above media) -->
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-9 text-center rv-up">
+                <h2 class="sap-heading">Built For Impact<span class="dot-g">.</span></h2>
+                <h3 class="sap-sub">Engineered For Growth<span class="dot-g">.</span></h3>
+                <p class="sap-desc mt-3">Keep your audience hooked with lightning-fast, high-performance websites
+                    designed to
+                    turn casual clicks into loyal fans and steady conversions.</p>
             </div>
-          </div>
         </div>
-        <div class="sap-dev-right rv-right">
-          <img src="assets/images/s2.svg" alt="Right device"
-            class="sap-dev-img">
+
+        <!-- 3-column media: device | laptop | device -->
+        <div class="sap-media-row">
+            <div class="sap-dev-left ">
+                <img src="assets/images/s1.svg" alt="Left device" class="sap-dev-img">
+            </div>
+            <div class="sap-laptop-col rv-up" data-delay="100">
+                <div class="sap-laptop-frame">
+                    <img src="assets/images/computer.png" alt="SAPFORCE laptop" class="sap-laptop-img">
+                    <div class="sap-laptop-screen">
+                        <video src="assets/images/sapforce.mp4" class="sap-screen-vid" autoplay loop muted
+                            playsinline></video>
+                    </div>
+                </div>
+            </div>
+            <div class="sap-dev-right rv-right">
+                <img src="assets/images/s2.svg" alt="Right device" class="sap-dev-img">
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- Tech bar: full-width dark strip -->
-   
-  </section>
+
+</section>
 
 
 

@@ -498,8 +498,8 @@ padding-top: 15px;
 }
 
 .signup-btn {
-    width: 115px;
-    height: 115px;
+    width: 171px;
+    height: 171px;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, .65);
     display: flex;
@@ -659,8 +659,8 @@ padding-top: 15px;
 }
 
 .s2-badge-img:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, .15);
+    /* transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .15); */
 }
 
 .s2-review {
@@ -747,6 +747,17 @@ padding-top: 15px;
     display: block;
 }
 
+.s2-phone-overlay {
+    position: absolute;
+    top: 0;
+    left: 55px;
+    width: 34%;
+    height: 84%;
+    object-fit: contain;
+    z-index: 10;
+    pointer-events: none;
+}
+
 /* Shield logo centred between the two phones */
 .s2-shield-wrap {
     width: 14%;
@@ -770,7 +781,7 @@ padding-top: 15px;
    Figma: x=837/1920=43.6%, y=584/768=76% of full section height */
 .s2-pub-pill {
     position: absolute;
-    left: 42.7%;
+    left: 40.9%;
     top: 63%;
     transform: translateY(-50%);
     /* font-family: var(--ff);
@@ -1452,7 +1463,7 @@ padding-top: 15px;
 }
 
 .bc-center {
-    background: #f3f4ec;
+    background: transparent;
     grid-area: g2;
 }
 
@@ -1487,7 +1498,7 @@ padding-top: 15px;
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     display: block;
 }
 
@@ -2319,7 +2330,7 @@ padding-top: 15px;
     font-size: 14.4px;
     color: #043c2f;
     letter-spacing: -0.83px;
-    border: 3.5px solid #000;
+    border: 2.5px solid #000;
     border-radius: 10px;
     padding: 13px 28px;
     margin-top: 24px;
@@ -2341,13 +2352,13 @@ padding-top: 15px;
     flex-wrap: wrap;
 }
 
-.t-logo {
+/* .t-logo {
     height: auto;
     max-height: 44px;
     width: auto;
     object-fit: contain;
     display: block;
-}
+} */
 
 /* RIGHT column â€” photo */
 .team-col-r {

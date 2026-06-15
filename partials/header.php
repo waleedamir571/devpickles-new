@@ -44,7 +44,7 @@
           <ul class="nav-items">
             <li><a href="#home" class="ni active">Home</a></li>
             <li><a href="#work" class="ni">Work</a></li>
-            <li><a href="#about" class="ni">About us</a></li>
+            <li><a href="about-us" class="ni">About us</a></li>
             <li><a href="#contact" class="ni">Contact us</a></li>
           </ul>
         </div>

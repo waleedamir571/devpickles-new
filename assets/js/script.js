@@ -56,7 +56,13 @@ $(document).ready(function () {
       ['.hero-stats.rv-up',   500]
     ];
     seq.forEach(function(s) {
-      setTimeout(function() { $(s[0]).addClass('vis'); }, s[1]);
+      setTimeout(function() { 
+        $(s[0]).addClass('vis');
+        // Start counters when hero stats become visible
+        if (s[0] === '.hero-stats.rv-up') {
+          initCounters();
+        }
+      }, s[1]);
     });
   }
 
@@ -137,23 +143,42 @@ $(document).ready(function () {
   });
 
   /* ===== STAT COUNTERS ===== */
-  var counted = false;
-  new IntersectionObserver(function(ents) {
-    ents.forEach(function(e) {
-      if (e.isIntersecting && !counted) {
-        counted = true;
-        $('.counter').each(function() {
-          var $el = $(this), target = parseInt($el.data('target'));
-          var t = setInterval(function() {
-            var cur = parseInt($el.text()) || 0;
-            var next = Math.min(cur + Math.ceil(target / 60), target);
-            $el.text(next + '+');
-            if (next >= target) clearInterval(t);
-          }, 25);
-        });
-      }
+  function initCounters() {
+    // First, reset all counters to 0
+    $('.counter').each(function() {
+      var $el = $(this);
+      var prefix   = $el.data('prefix')   !== undefined ? String($el.data('prefix'))   : '';
+      var suffix   = $el.data('suffix')   !== undefined ? String($el.data('suffix'))   : '+';
+      var decimals = $el.data('decimals') !== undefined ? parseInt($el.data('decimals')) : 0;
+      $el.text(prefix + (0).toFixed(decimals) + suffix);
     });
-  }, { threshold: .5 }).observe(document.querySelector('.hero-stats') || document.body);
+
+    // Then animate them
+    setTimeout(function() {
+      $('.counter').each(function() {
+        var $el = $(this);
+        var target   = parseFloat($el.data('target'));
+        var prefix   = $el.data('prefix')   !== undefined ? String($el.data('prefix'))   : '';
+        var suffix   = $el.data('suffix')   !== undefined ? String($el.data('suffix'))   : '+';
+        var decimals = $el.data('decimals') !== undefined ? parseInt($el.data('decimals')) : 0;
+        
+        // Clear any existing interval to prevent conflicts
+        if ($el.data('counterInterval')) {
+          clearInterval($el.data('counterInterval'));
+        }
+        
+        var t = setInterval(function() {
+          var raw  = parseFloat($el.text().replace(prefix, '').replace(suffix, '')) || 0;
+          var next = Math.min(raw + target / 60, target);
+          $el.text(prefix + next.toFixed(decimals) + suffix);
+          if (next >= target) clearInterval(t);
+        }, 25);
+        
+        // Store interval ID on element
+        $el.data('counterInterval', t);
+      });
+    }, 100);
+  }
 
   /* ===== PRICING — MAIN TABS ===== */
   $('.toggle-opt').on('click', function() {
