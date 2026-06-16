@@ -4,6 +4,21 @@
 
 $(document).ready(function () {
 
+  /* ===== VIDEO AUTOPLAY FIX ===== */
+  function initVideos() {
+    var videos = document.querySelectorAll('video');
+    videos.forEach(function(video) {
+      video.muted = true;
+      video.playsInline = true;
+      video.play().catch(function(e) {
+        console.log('Video autoplay blocked:', e);
+      });
+    });
+  }
+  initVideos();
+  // Also try when page is fully loaded
+  window.addEventListener('load', initVideos);
+
   /* ===== PAGE LOADER ===== */
   setTimeout(function () {
     $('#pageLoader').addClass('done');
