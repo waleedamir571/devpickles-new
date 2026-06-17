@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevPickles – Drive Growth</title>
+  <title>Custom Software and Mobile App Development Company | Dev Pickles</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -36,7 +36,12 @@
     <nav class="hero-nav" id="mainNav">
       <div class="nav-wrap">
         <a class="nav-brand" href="#home">
-          <img src="assets/images/logo2.gif" alt="" class="nav-brand-icon" onerror="this.style.display='none'">
+
+          <div class="logo-stack">
+            <img src="assets/images/logo-sm1.png" alt="" class="logo-base">
+            <img src="assets/images/logo-sm2.png" alt="" class="logo-spin">
+          </div>
+           <!-- <img src="assets/images/logo2.gif" alt="" class="nav-brand-icon" onerror="this.style.display='none'"> -->
           <span class="nav-brand-name">DevPickles</span>
         </a>
         <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>

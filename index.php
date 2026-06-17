@@ -75,7 +75,8 @@
             <div class="s2-phone-frame">
               <img src="assets/images/mobilebg.svg" alt="" class="s2-phone-frame-img">
               <div class="s2-phone-screen">
-                <video class="s2-screen-img" autoplay loop muted playsinline preload="auto" poster="assets/images/section2_video.png">
+                <video class="s2-screen-img" autoplay loop muted playsinline preload="auto"
+                  poster="assets/images/section2_video.png">
                   <source src="assets/images/v1.mov" type="video/mp4">
                 </video>
               </div>
@@ -94,7 +95,8 @@
             <div class="s2-phone-frame">
               <img src="assets/images/mobilebg.svg" alt="" class="s2-phone-frame-img">
               <div class="s2-phone-screen">
-                <video class="s2-screen-img" autoplay loop muted playsinline preload="auto" poster="assets/images/section2_video.png">
+                <video class="s2-screen-img" autoplay loop muted playsinline preload="auto"
+                  poster="assets/images/section2_video.png">
                   <source src="assets/images/v2.MP4" type="video/mp4">
                 </video>
               </div>
@@ -385,110 +387,112 @@
     </div>
 
     <div class="price-panes-wrapper">
-    <!-- BASIC -->
-    <div class="price-pane active" id="mt-basic">
-      <div class="price-subtabs mt-4">
-        <button class="pst active" data-plan="1">App Development</button>
-        <button class="pst" data-plan="2">SEO</button>
-        <button class="pst" data-plan="3">Website</button>
-        <button class="pst" data-plan="4">Logo design</button>
-        <button class="pst" data-plan="5">Marketing Service</button>
-      </div>
-      <div class="row g-4 justify-content-center mt-4">
-        <div class="col-xl-5 col-lg-6">
-          <div class="pc-light">
-            <div class="pc-top">
-              <div>
-                <div class="pc-name">Custom Core</div>
-                <p class="pc-desc">Tailored solution built around your unique goals.</p>
+      <!-- BASIC -->
+      <div class="price-pane active" id="mt-basic">
+        <div class="price-subtabs mt-4">
+          <button class="pst active" data-plan="1">App Development</button>
+          <button class="pst" data-plan="2">SEO</button>
+          <button class="pst" data-plan="3">Website</button>
+          <button class="pst" data-plan="4">Logo design</button>
+          <button class="pst" data-plan="5">Marketing Service</button>
+        </div>
+        <div class="row g-4 justify-content-center mt-4">
+          <div class="col-xl-5 col-lg-6">
+            <div class="pc-light">
+              <div class="pc-top">
+                <div>
+                  <div class="pc-name">Custom Core</div>
+                  <p class="pc-desc">Tailored solution built around your unique goals.</p>
+                </div>
+                <div class="pc-price"><span class="pc-curr">$</span><span class="pc-val" id="b-v1">100</span></div>
               </div>
-              <div class="pc-price"><span class="pc-curr">$</span><span class="pc-val" id="b-v1">100</span></div>
+              <div class="pc-line"></div>
+              <ul class="pc-list">
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Full brand identity system</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Custom app development</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Dedicated account manager</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Enterprise SEO strategy</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> 24/7 priority support</li>
+              </ul>
             </div>
-            <div class="pc-line"></div>
-            <ul class="pc-list">
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Full brand identity system</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Custom app development</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Dedicated account manager</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Enterprise SEO strategy</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> 24/7 priority support</li>
-            </ul>
+          </div>
+          <div class="col-xl-5 col-lg-6">
+            <div class="pc-dark">
+              <img src="assets/images/Doscount.svg" alt="Most Popular" class="most-pop">
+              <div class="pc-top">
+                <div>
+                  <div class="pc-name pc-name-lt">Enterprise</div>
+                  <p class="pc-desc pc-desc-lt">Complete digital transformation for large scale enterprises.</p>
+                </div>
+                <div class="pc-price pc-price-lt"><span class="pc-curr">$</span><span class="pc-val"
+                    id="b-v2">200</span>
+                </div>
+              </div>
+              <div class="pc-line pc-line-lt"></div>
+              <ul class="pc-list pc-list-lt">
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Multi-platform applications</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> AI-powered integration</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Custom analytics dashboard</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Dedicated support team</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> 6-month priority support</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6">
-          <div class="pc-dark">
-            <img src="assets/images/Doscount.svg" alt="Most Popular" class="most-pop">
-            <div class="pc-top">
-              <div>
-                <div class="pc-name pc-name-lt">Enterprise</div>
-                <p class="pc-desc pc-desc-lt">Complete digital transformation for large scale enterprises.</p>
-              </div>
-              <div class="pc-price pc-price-lt"><span class="pc-curr">$</span><span class="pc-val" id="b-v2">200</span>
-              </div>
-            </div>
-            <div class="pc-line pc-line-lt"></div>
-            <ul class="pc-list pc-list-lt">
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Multi-platform applications</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> AI-powered integration</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Custom analytics dashboard</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Dedicated support team</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> 6-month priority support</li>
-            </ul>
-          </div>
-        </div>
       </div>
-    </div>
 
-    <!-- CUSTOM -->
-    <div class="price-pane" id="mt-custom">
-      <div class="price-subtabs mt-4">
-        <button class="pst active" data-plan="1">App Development</button>
-        <button class="pst" data-plan="2">SEO</button>
-        <button class="pst" data-plan="3">Website</button>
-        <button class="pst" data-plan="4">Logo design</button>
-        <button class="pst" data-plan="5">Marketing Service</button>
-      </div>
-      <div class="row g-4 justify-content-center mt-4">
-        <div class="col-xl-5 col-lg-6 rv-left">
-          <div class="pc-light">
-            <div class="pc-top">
-              <div>
-                <div class="pc-name">Custom Core</div>
-                <p class="pc-desc">Tailored solution built around your unique goals.</p>
+      <!-- CUSTOM -->
+      <div class="price-pane" id="mt-custom">
+        <div class="price-subtabs mt-4">
+          <button class="pst active" data-plan="1">App Development</button>
+          <button class="pst" data-plan="2">SEO</button>
+          <button class="pst" data-plan="3">Website</button>
+          <button class="pst" data-plan="4">Logo design</button>
+          <button class="pst" data-plan="5">Marketing Service</button>
+        </div>
+        <div class="row g-4 justify-content-center mt-4">
+          <div class="col-xl-5 col-lg-6 rv-left">
+            <div class="pc-light">
+              <div class="pc-top">
+                <div>
+                  <div class="pc-name">Custom Core</div>
+                  <p class="pc-desc">Tailored solution built around your unique goals.</p>
+                </div>
+                <div class="pc-price"><span class="pc-curr">$</span><span class="pc-val" id="c-v1">100</span></div>
               </div>
-              <div class="pc-price"><span class="pc-curr">$</span><span class="pc-val" id="c-v1">100</span></div>
+              <div class="pc-line"></div>
+              <ul class="pc-list">
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Full brand identity system</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Custom app development</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Dedicated account manager</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Enterprise SEO strategy</li>
+                <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> 24/7 priority support</li>
+              </ul>
             </div>
-            <div class="pc-line"></div>
-            <ul class="pc-list">
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Full brand identity system</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Custom app development</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Dedicated account manager</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> Enterprise SEO strategy</li>
-              <li><img src="assets/images/tick1.svg" class="pc-chk" alt="✓"> 24/7 priority support</li>
-            </ul>
+          </div>
+          <div class="col-xl-5 col-lg-6 rv-right">
+            <div class="pc-dark">
+              <div class="pc-top">
+                <div>
+                  <div class="pc-name pc-name-lt">Enterprise</div>
+                  <p class="pc-desc pc-desc-lt">Complete digital transformation for large scale enterprises.</p>
+                </div>
+                <div class="pc-price pc-price-lt"><span class="pc-curr">$</span><span class="pc-val"
+                    id="c-v2">200</span>
+                </div>
+              </div>
+              <div class="pc-line pc-line-lt"></div>
+              <ul class="pc-list pc-list-lt">
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Multi-platform applications</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> AI-powered integration</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Custom analytics dashboard</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Dedicated support team</li>
+                <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> 6-month priority support</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-xl-5 col-lg-6 rv-right">
-          <div class="pc-dark">
-            <div class="pc-top">
-              <div>
-                <div class="pc-name pc-name-lt">Enterprise</div>
-                <p class="pc-desc pc-desc-lt">Complete digital transformation for large scale enterprises.</p>
-              </div>
-              <div class="pc-price pc-price-lt"><span class="pc-curr">$</span><span class="pc-val" id="c-v2">200</span>
-              </div>
-            </div>
-            <div class="pc-line pc-line-lt"></div>
-            <ul class="pc-list pc-list-lt">
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Multi-platform applications</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> AI-powered integration</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Custom analytics dashboard</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> Dedicated support team</li>
-              <li><img src="assets/images/tick2.svg" class="pc-chk" alt="✓"> 6-month priority support</li>
-            </ul>
-          </div>
-        </div>
       </div>
-    </div>
     </div>
   </div>
 </section>
