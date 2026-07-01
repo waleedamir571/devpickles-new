@@ -380,8 +380,6 @@
    
   </section>
 
-
-
 <section class="s-pricing s-pad" id="pricing">
     <div class="container">
         <div class="row justify-content-center">
@@ -566,7 +564,6 @@
         </div>
     </div>
 </section>
-
 
 <!-- ========================================================
      S8 — TEAM AT DEVPICKLES
