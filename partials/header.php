@@ -14,6 +14,98 @@
     rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/smallfan.png">
+    
+  <style>
+    /* Dropdown Menu - Force Load */
+    .nav-dropdown {
+      position: relative !important;
+    }
+    
+    .nav-dropdown .dropdown-menu {
+      position: absolute !important;
+      top: 100% !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      background: #043c2f !important;
+      border-radius: 12px !important;
+      padding: 12px 0 !important;
+      min-width: 240px !important;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
+      display: none !important;
+      z-index: 9999 !important;
+      margin-top: 0px !important;
+      list-style: none !important;
+    }
+    
+    .nav-dropdown:hover .dropdown-menu,
+    .dropdown-menu:hover {
+      display: block !important;
+    }
+    
+    .nav-dropdown .dropdown-menu li {
+      list-style: none !important;
+    }
+    
+    .nav-dropdown .dropdown-menu .dropdown-item {
+      display: block !important;
+      padding: 12px 24px !important;
+      font-family: 'Montserrat', sans-serif !important;
+      font-size: 16px !important;
+      font-weight: 500 !important;
+      color: #f3f4ec !important;
+      transition: all 0.2s ease !important;
+      white-space: nowrap !important;
+      text-decoration: none !important;
+    }
+    
+    .nav-dropdown .dropdown-menu .dropdown-item:hover {
+      background: transparent !important;
+      padding-left: 28px !important;
+      color: #81f774 !important;
+    }
+  </style>
+  
+  <script>
+    // Dropdown menu ko force show karo on hover
+    document.addEventListener('DOMContentLoaded', function() {
+      const dropdown = document.querySelector('.nav-dropdown');
+      const menu = document.querySelector('.dropdown-menu');
+      
+      if (dropdown && menu) {
+        let hideTimeout;
+        
+        // Show menu when hovering on dropdown
+        dropdown.addEventListener('mouseenter', function() {
+          clearTimeout(hideTimeout);
+          menu.style.display = 'block';
+        });
+        
+        // Keep menu visible when hovering on menu itself
+        menu.addEventListener('mouseenter', function() {
+          clearTimeout(hideTimeout);
+          menu.style.display = 'block';
+        });
+        
+        // Hide with delay when leaving dropdown
+        dropdown.addEventListener('mouseleave', function(e) {
+          // Check if moving to menu
+          hideTimeout = setTimeout(function() {
+            if (!menu.matches(':hover')) {
+              menu.style.display = 'none';
+            }
+          }, 100);
+        });
+        
+        // Hide when leaving menu
+        menu.addEventListener('mouseleave', function() {
+          hideTimeout = setTimeout(function() {
+            menu.style.display = 'none';
+          }, 100);
+        });
+      }
+    });
+  </script>
+
 </head>
 
 <body>
@@ -47,8 +139,14 @@
         <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
         <div class="nav-center" id="navCenter">
           <ul class="nav-items">
-            <li><a href="#home" class="ni active">Home</a></li>
-            <li><a href="#work" class="ni">Work</a></li>
+            <li><a href="index" class="ni active">Home</a></li>
+            <li class="nav-dropdown">
+              <a href="#" class="ni">Services</a>
+              <ul class="dropdown-menu">
+                <li><a href="mobile-app-development" class="dropdown-item">Mobile App Development</a></li>
+                <li><a href="web-development" class="dropdown-item">Web Development</a></li>
+              </ul>
+            </li>
             <li><a href="about-us" class="ni">About us</a></li>
             <li><a href="#contact" class="ni">Contact us</a></li>
           </ul>

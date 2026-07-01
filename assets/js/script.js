@@ -110,10 +110,13 @@ $(document).ready(function () {
     $('#navCenter').toggleClass('open');
     $('#navActions').toggleClass('open');
   });
-  $('.ni').on('click', function() {
-    $('#hamburger').removeClass('open');
-    $('#navCenter').removeClass('open');
-    $('#navActions').removeClass('open');
+  $('.ni').on('click', function(e) {
+    // Don't close menu if it's a dropdown parent
+    if (!$(this).parent().hasClass('nav-dropdown')) {
+      $('#hamburger').removeClass('open');
+      $('#navCenter').removeClass('open');
+      $('#navActions').removeClass('open');
+    }
   });
 
   /* ===== NAV STICKY STYLE ON SCROLL ===== */
@@ -155,6 +158,13 @@ $(document).ready(function () {
       e.preventDefault();
       $('html,body').animate({ scrollTop: $(t).offset().top - 70 }, 680);
     }
+  });
+
+  /* ===== DROPDOWN MENU FIX ===== */
+  // Prevent dropdown parent link from triggering smooth scroll
+  $('.nav-dropdown > .ni').on('click', function(e) {
+    e.preventDefault();
+    return false;
   });
 
   /* ===== STAT COUNTERS ===== */

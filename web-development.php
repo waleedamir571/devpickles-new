@@ -53,7 +53,7 @@
     </div>
     <!-- Mascot — absolute bottom-left of section -->
     <div class="s2-review-row">
-        <img src="assets/images/mascot.png" alt="mascot" class="s2-mascot">
+        <img src="assets/images/mascot.svg" alt="mascot" class="s2-mascot">
         <span class="s2-review-text">Check-out our reviews! 👇</span>
     </div>
 </section>
@@ -152,20 +152,28 @@
 
     <!-- Tech bar: full-width dark strip -->
     <div class="tech-bar-full rv-up" data-delay="200">
-        <div class="container tech-bar-inner">
-            <span class="tech-label-txt">Technology <span class="fw-normal">Stack</span></span>
-            <div class="tech-bar-sep"></div>
-            <div class="tech-logos-row">
-                <img src="assets/images/php.svg" alt="Tech Logo" class="tl">
-                <img src="assets/images/react.svg" alt="Tech Logo" class="tl">
-                <img src="assets/images/laravel.svg" alt="Tech Logo" class="tl">
-                <img src="assets/images/nest.svg" alt="Tech Logo" class="tl">
-                <img src="assets/images/next.svg" alt="Tech Logo" class="tl">
-                <!-- <img src="assets/images/tech-logo5.png" alt="Tech Logo" class="tl">
-          <img src="assets/images/tech-logo6.png" alt="Tech Logo" class="tl"> -->
-            </div>
+    <div class="container tech-bar-inner">
+      <span class="tech-label-txt">Technology <span class="fw-normal">Stack</span></span>
+      <div class="tech-bar-sep"></div>
+      <div class="tech-logos-row">
+        <div class="tech-logos-track">
+          <img src="assets/images/shopify.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/php.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/react.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/laravel.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/nest.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/next.svg" alt="Tech Logo" class="tl">
+          <!-- duplicate for seamless loop -->
+          <img src="assets/images/shopify.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/php.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/react.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/laravel.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/nest.svg" alt="Tech Logo" class="tl">
+          <img src="assets/images/next.svg" alt="Tech Logo" class="tl">
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- Our Advantages Section -->

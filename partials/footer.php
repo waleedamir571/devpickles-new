@@ -5,14 +5,14 @@
     <div class="container">
       <div class="row align-items-center g-4">
         <div class="col-lg-7 rv-left">
-          <h2 class="footer-cta-h">Discover the full scale of<br>Devpickles capabilities</h2>
+          <h2 class="footer-cta-h">See What Dev Pickles <br> Can Do For Your Business</h2>
           <svg xmlns="http://www.w3.org/2000/svg" width="189" height="4" viewBox="0 0 189 4" fill="none">
             <path d="M0 2H188.341" stroke="#81F774" stroke-width="4" />
           </svg>
         </div>
         <div class="col-lg-5 text-lg-end rv-right">
-          <a href="tel:+9493233170" class="btn-fc-call">Call Us</a>
-          <a href="mailto:hello@devpickles.com" class="btn-fc-inq">Inquire Now</a>
+          <a href="tel:+9493233170" class="btn-fc-call">Let's Connect</a>
+          <a href="mailto:hello@devpickles.com" class="btn-fc-inq">Request A Quote</a>
         </div>
       </div>
     </div>
